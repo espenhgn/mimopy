@@ -1,0 +1,3 @@
+Multiple-input multiple-output system identification based on the description by
+Perreault et al (1999) Biol. Cybern. 80, 327-337., implemented in Python
+relying on numpy, scipy and matplotlib functionality.
