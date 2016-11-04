@@ -55,10 +55,10 @@ class MIMO(object):
         n_x = x.shape[0]
         n_y = y.shape[0]
         
-        try:
-            assert(n_x >= n_y)
-        except AssertionError as ae:
-            raise ae, 'n_x = {} < n_y = {}'.format(n_x, n_y)
+        #try:
+        #    assert(n_x >= n_y)
+        #except AssertionError as ae:
+        #    raise ae, 'n_x = {} < n_y = {}'.format(n_x, n_y)
         
         #compute cross-spectra
         C_xy = np.empty((n_x, n_y, self.NFFT), dtype=complex)
