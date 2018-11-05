@@ -15,7 +15,7 @@ setup(
     license = "GPL",
     keywords = "multiple input multiple output system identification",
     url = "http://github.com/espenhgn/mimopy",
-    packages=['mimo'],
+    packages=['mimopy'],
     long_description=read('README'),
     classifiers=[
         "Development Status :: 3 - Alpha",
